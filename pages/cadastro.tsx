@@ -28,30 +28,30 @@ export default function Cadastro() {
 
                             <Form.Group controlId="formGridAddress1">
                                 <Form.Label>Endereço</Form.Label>
-                                <Form.Control placeholder="1234 Main St" />
+                                <Form.Control placeholder="Rua Afonso Pena, 123" />
                             </Form.Group>
 
                             <Form.Group controlId="formGridAddress2">
-                                <Form.Label>Address 2</Form.Label>
-                                <Form.Control placeholder="Apartment, studio, or floor" />
+                                <Form.Label>Complemento</Form.Label>
+                                <Form.Control placeholder="Casa 1 Apto 2 Bloco 3" />
                             </Form.Group>
 
                             <Form.Row>
                                 <Form.Group as={Col} controlId="formGridCity">
-                                    <Form.Label>City</Form.Label>
+                                    <Form.Label>Cidade</Form.Label>
                                     <Form.Control />
                                 </Form.Group>
 
                                 <Form.Group as={Col} controlId="formGridState">
-                                    <Form.Label>State</Form.Label>
-                                    <Form.Control as="select" defaultValue="Choose...">
+                                    <Form.Label>Estado</Form.Label>
+                                    <Form.Control as="select" defaultValue="MS">
                                         <option>Choose...</option>
                                         <option>...</option>
                                     </Form.Control>
                                 </Form.Group>
 
                                 <Form.Group as={Col} controlId="formGridZip">
-                                    <Form.Label>Zip</Form.Label>
+                                    <Form.Label>CEP</Form.Label>
                                     <Form.Control />
                                 </Form.Group>
                             </Form.Row>
