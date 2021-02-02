@@ -7,6 +7,13 @@
   align-items: center;
 }
 
+.container2 {
+  min-height: 67vh;
+  padding: 0 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -20,7 +27,7 @@
   width: 100%;
   background-color: #374797;
   border-top: 1px solid #eaeaea;
-  font-size: small;
+  font-size: x-small;
   color: white;
 }
 
@@ -116,6 +123,12 @@
 
 .logo {
   height: 1em;
+}
+
+.pageName {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 600px) {
